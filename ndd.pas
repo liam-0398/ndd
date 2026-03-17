@@ -24,7 +24,7 @@ begin
       WriteLn('LISTENING')
     else
     begin
-      WriteLn('DEAF');
+      WriteLn('LISTEN REFUSAL');
       Exit;
     end;
 
