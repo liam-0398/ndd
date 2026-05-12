@@ -3,17 +3,21 @@ NDD
 This tool allows you to transfer files over your network using a raw socket connection. It includes a mode allows it to be used as a service.
 
 
-{USAGE}
 
 RECIEVE
-'ndd r'
+```
+ndd r
+```
 
 SEND
-'ndd s *IP* /file/to/send /destination/dir/filename'
+```
+ndd s *IP* /file/to/send /destination/dir/filename
+```
 
 DAEMON
-'ndd d'
-
+```
+ndd d
+```
 
 Compile with FPC. Copy binary to /usr/local/bin
 
